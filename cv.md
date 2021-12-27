@@ -54,9 +54,12 @@ times = 10
 end
 ```
 
-### Experience:
-
 ### Courses:
 
 * [HTML](https://ru.code-basics.com/languages/html)
 * [Жизнь программиста](https://ru.hexlet.io/courses/prog-life)
+
+### Languages:
+
+* English - Intermediate / Upper-intermediate
+* German - B1
