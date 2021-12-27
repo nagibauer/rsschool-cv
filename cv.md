@@ -56,7 +56,7 @@ end
 
 ### Courses:
 
-* [HTML](https://ru.code-basics.com/languages/html)
+* [HTML для начинающих](https://ru.code-basics.com/languages/html)
 * [Жизнь программиста](https://ru.hexlet.io/courses/prog-life)
 
 ### Languages:
