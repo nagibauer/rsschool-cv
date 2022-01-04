@@ -6,7 +6,7 @@
 * Phone: +7-983-563-07-51
 * Email: nagandrej@gmail.com
 * GitHub: [nagibauer](https://github.com/nagibauer)
-* Telegram: nag_an
+* Telegram: [nag_andrej](https://t.me/nag_andrej)
 * Discord-Server RS_School: Andrej_(@nagibauer)
 
 ### About me:
