@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./script.js"></script>
+    <link rel="stylesheet" type="text/css" href="./css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap">    
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <title>Document</title>
+</head>
+
+<body class="body">
+    <header class="header">
+        <div class="container">
+            <nav>
+                <ul class="nav-list">
+                    <li>
+                        <a href="#contacts" class="nav-link">Contact information</a>
+                    </li>
+                    <li>
+                        <a href="#summary " class="nav-link">About me</a>
+                    </li>
+                    <li>
+                        <a href="#skills" class="nav-link">Skills</a>
+                    </li>
+                    <li>
+                        <a href="#code" class="nav-link">Code example</a>
+                    </li>
+                    <li>
+                        <a href="#projects" class="nav-link">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#education" class="nav-link">Education</a>
+                    </li>
+                    <li>
+                        <a href="#languages" class="nav-link">Languages</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+   
+    <main class="main">
+        <div class="container">
+            <div><h1 class = "h1">Andrej Nagibauer</h1>
+            <img class="my-photo" src="./assets/img/my_photo.jpg" alt="photo">
+            </div>
+
+            <div id="contacts">
+                <h2>Contact information:</h2>
+            </div>
+                <ul>
+                    <li>Email: nagandrej@gmail.com</li>
+                    <li>Phone: +7-983-563-07-51</li>
+                    <li>Telegram: <a href="https://t.me/nag_andrej">nag_andrej</a> </li>
+                    <li>Discord: Andrej_Nagibauer#8004</li>
+                    <li>In Discord-server 'rs-school': Andrej_(@nagibauer)</li>
+                </ul>
+            
+            <div id="summary">
+                <h2>About me:</h2>
+            </div>
+            <p>I live in Omsk and I'm 40 years old. I worked as a teacher of Philosophy, Theology and Logic for 8 years. 
+                    But now I really want to change profession and learn programming to become IT-specialist.</p>
+
+            <div id="skills">
+                <h2>Skills:</h2>
+            </div>
+                <ul>
+                    <li>HTML & CSS</li>
+                    <li>Git & GitHub (basics)</li>
+                    <li>VS Code (basics)</li>
+                    <li>Ruby (just started to learn)</li>
+                </ul>
+
+            <div id="code">
+                <h2>Code example:</h2>
+            </div>
+            <pre class="pre" lang="ru"><code>
+    <i>Ruby:</i>
+
+    x = rand(0..100)
+    puts "\nЯ загадал число от 1 до 100. Угадай, какое?"
+    puts "У тебя есть 10 попыток"
+
+    times = 10
+
+    1.upto(times) do |pp|
+
+        print "\nПопытка #{pp}: "
+        answ = gets.strip.to_i
+
+        if answ &lt; x
+            puts "Нет, больше!\n"
+        elsif answ &gt; x
+            puts "Нет, меньше!\n"
+        elsif answ == x 
+            puts "Браво!"
+            exit
+        end
+
+        if pp == times && answ != x
+            puts "Так и не угадал"
+            puts "Правильный ответ: #{x}"
+        end
+
+        print "Осталось попыток #{times - pp}\n"
+    end
+            </code></pre>
+
+            <div id="projects">
+                <h2>Projects:</h2>
+            </div>
+                <ul>
+                    <li>
+                       <span>first project: <a href="https://nagibauer.github.io/rsschool-cv/" class="courses-link">"CV"</a> (by HTML/CSS)</span> 
+                    </li>
+                </ul>
+
+            <div id="education">
+                <h2>Education:</h2>
+            </div>
+                <ul>
+                    <li>Omsk State Pedagogical University (Philosophy Department, 
+                        specialization: Philosophy and Humanitarian Informatics)</li>
+                    <li>
+                        <a href="https://ru.code-basics.com/languages/html" class="courses-link">HTML</a>
+                    </li>
+                    <li>
+                        <a href="https://ru.hexlet.io/courses/prog-life" class="courses-link">Hexlet</a>
+                    </li>
+                </ul>
+
+            <div id="languages">
+                <h2>Languages:</h2>
+            </div>
+                <ul>
+                    <li>Russian - native</li>
+                    <li>English - Intermediate / Upper-intermediate</li>
+                    <li>German  - B1</li>
+                </ul>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-container">
+            <div>
+                <a href="https://github.com/nagibauer">nagibauer</a>
+            </div>
+            <div>2022</div>
+            <div>
+                <a href="https://rs.school/js/"><img src="./assets/img/rs_school_js.svg" class="logo" alt="rss-js-logo"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
